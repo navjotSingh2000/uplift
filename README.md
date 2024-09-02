@@ -4,15 +4,13 @@ This app is designed using React Native to deliver daily motivational quotes as 
 
 ## Screenshots
 
-|                 Home Screen 1                  |                 Home Screen 2                  |
+|                Adding schedule                 |            List of scheduled jokes             |
 | :--------------------------------------------: | :--------------------------------------------: |
 | ![Home Screen 1](screenshots/home_screen1.png) | ![Home Screen 2](screenshots/home_screen2.png) |
-|                _Home Screen 1_                 |                _Home Screen 2_                 |
 
-|                 Notification Screen                  |                 Joke Screen                 |
+|                  Joke notification                   |             Joke viewer Screen              |
 | :--------------------------------------------------: | :-----------------------------------------: |
 | ![Notification Screen](screenshots/notification.png) | ![Joke Screen](screenshots/joke_screen.png) |
-|                _Notification Screen_                 |                _Joke Screen_                |
 
 ## Key Features
 
