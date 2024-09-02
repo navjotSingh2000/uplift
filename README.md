@@ -1,29 +1,16 @@
-# Installed dependencies
+# UPLIFT - React Native Cross-Platform Mobile App for Motivational Quotes Notifications
 
-## Expo router & React navigation
+This app is designed using React Native to deliver daily motivational quotes as notifications on both Android and iOS platforms. Users can set specific times to receive notifications, ensuring they get a boost of motivation throughout the day. The app allows for the customization of notification times and includes options to enable or disable these notifications as needed.
 
-npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
-(uninstalled expo router lib only)
+## Key Features
 
-npm install @react-navigation/native
-npm install @react-navigation/native-stack
+- **Daily Motivational Quotes:** Users receive daily quotes to inspire and motivate them.
+- **Customizable Notification Times:** Users can set and manage multiple notification times throughout the day.
+- **Cross-Platform Compatibility:** Seamless experience on both Android and iOS devices.
+- **Background Notifications:** Notifications are sent even when the app is not in use, ensuring consistent motivation.
 
-## Expo notifications
+## Technologies Used
 
-npx expo install expo-notifications
-
-## Expo AsyncStorage
-
-npx expo install @react-native-async-storage/async-storage
-
-# Expo Datetime picker
-
-npx expo install @react-native-community/datetimepicker
-
-# Date utility library
-
-npm install date-fns
-
-# Provides access to system information about the physical device
-
-npm i expo-device
+- **React Native:** For building the app across Android and iOS platforms.
+- **TypeScript:** For enhancing code quality, maintainability, and development efficiency.
+- **Expo SDK:** To simplify development and ensure compatibility across devices.
