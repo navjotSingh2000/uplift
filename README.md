@@ -1,29 +1,28 @@
-# Installed dependencies
+# UPLIFT - React Native Cross-Platform Mobile App for Motivational Quotes Notifications
 
-## Expo router & React navigation
+This app is designed using React Native to deliver daily motivational quotes as notifications on both Android and iOS platforms. Users can set specific times to receive notifications, ensuring they get a boost of motivation throughout the day. The app allows for the customization of notification times and includes options to enable or disable these notifications as needed.
 
-npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
-(uninstalled expo router lib only)
+## Screenshots
 
-npm install @react-navigation/native
-npm install @react-navigation/native-stack
+|                 Home Screen 1                  |                 Home Screen 2                  |
+| :--------------------------------------------: | :--------------------------------------------: |
+| ![Home Screen 1](screenshots/home_screen1.png) | ![Home Screen 2](screenshots/home_screen2.png) |
+|                _Home Screen 1_                 |                _Home Screen 2_                 |
 
-## Expo notifications
+|                 Notification Screen                  |                 Joke Screen                 |
+| :--------------------------------------------------: | :-----------------------------------------: |
+| ![Notification Screen](screenshots/notification.png) | ![Joke Screen](screenshots/joke_screen.png) |
+|                _Notification Screen_                 |                _Joke Screen_                |
 
-npx expo install expo-notifications
+## Key Features
 
-## Expo AsyncStorage
+- **Daily Motivational Quotes:** Users receive daily quotes to inspire and motivate them.
+- **Customizable Notification Times:** Users can set and manage multiple notification times throughout the day.
+- **Cross-Platform Compatibility:** Seamless experience on both Android and iOS devices.
+- **Background Notifications:** Notifications are sent even when the app is not in use, ensuring consistent motivation.
 
-npx expo install @react-native-async-storage/async-storage
+## Technologies Used
 
-# Expo Datetime picker
-
-npx expo install @react-native-community/datetimepicker
-
-# Date utility library
-
-npm install date-fns
-
-# Provides access to system information about the physical device
-
-npm i expo-device
+- **React Native:** For building the app across Android and iOS platforms.
+- **TypeScript:** For enhancing code quality, maintainability, and development efficiency.
+- **Expo SDK:** To simplify development and ensure compatibility across devices.
